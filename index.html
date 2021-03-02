@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Efecto mouse</title>
+	<link rel="stylesheet" type="text/css" href="es.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div onmouseout="fuera();" onmouseover="dentro();" id="div"></div>
+	<script>
+		function fuera()
+		{
+			document.getElementById("div").innerHTML="El mouse está afuera del recuadro";
+		}
+		function dentro()
+		{
+			document.getElementById("div").innerHTML="El mouse está adentro del recuadro";
+		}
+	</script>
+</body>
+</html>

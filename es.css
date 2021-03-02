@@ -1,0 +1,24 @@
+body
+{
+	background-color: black;
+}
+
+#div
+{
+	position: absolute;
+	top: 14%;
+	left: 14%;
+	width: 70%;
+	height: 70%;
+	background-color: #AE00FF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 20px double #FDFFB5;
+	font-size: 100px;
+	text-align: center;
+	color: #CEFFFC;
+	font-family: Castellar;
+	font-weight: bold;
+	font-style: italic;
+}
